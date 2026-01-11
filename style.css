@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+section{
+    margin-left: 200px;
+    margin-right: 186px;
+}
+nav{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
+.navItems{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 10px;
+}
+.navLogo{
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 30px;
+    /* width: 00px; */
+}
+#rightAlignNav{
+    justify-content: flex-end;
+}
+#navSearch{
+    height: 18px;
+    width: 18px;
+}
+.rightAlignNav{
+    display: flex;
+    margin-left: auto;
+    margin-right: 48px;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navSubscribe{
+    background-color: #FFE500;
+    height: 50px;
+    width: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#heroTitle{
+    color: #FFFFFF;
+    font-size: 68px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#heroSubTitle{
+    color: #FFFFFF;
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+#heroSubSpan{
+    margin-right: 5px;
+    text-decoration: underline;
+    text-decoration-color: #FFE500;
+    text-underline-offset: 4px;
+}
+#titleUnderline{
+    background-color: #FFE500;
+    width: 76px;
+    height: 4px;
+    margin-top: 36px;
+    margin-left: 530px;
+}
+#todaysPickLine{
+    display: block;
+    background-color: #FFE500;
+    height: 38px;
+    width: 6px;
+    
+}
+#todaysPick{
+    color: #FFFFFF;
+    margin-left: 15px;
+
+}
+.todaysPickWrapper{
+    margin-top: 124px;
+    display: flex;
+    align-items: center;
+    
+}
+.pickContent{
+    max-width: 220px;
+    word-wrap: break-word;
+}
+.pickCard{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.pickImage{
+    height: 90px;
+    width: 100px;
+}
+.pickCategory{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.pickTitle{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+.pickDescription{
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 13px;
+}
