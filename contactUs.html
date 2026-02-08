@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - National Geographic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contactUs.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="logo-container">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/National-Geographic-Logo.svg.png" alt="National Geographic"></a>
+                </div>
+            </div>
+            
+            <nav id="mainNav">
+                <a href="animals.html">Animals</a>
+                <a href="history.html">History & Culture</a>
+                <a href="travel.html">Travel</a>
+                <a href="health.html">Health</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+        
+        <div class="header-right">
+            <a href="#search"><img class="search-icon" src="./icons/search icon.png" alt="Search"></a>
+            <a href="#login" class="login-btn">Login</a>
+            <a href="#subscribe" class="subscribe-btn">Subscribe</a>
+        </div>
+    </header>
+
+    <section class="contact-section">
+        <h1 class="contact-title">CONTACT US</h1>
+        
+        <div class="contact-form-container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group full-width">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div class="form-group full-width">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="submit-btn-container">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
